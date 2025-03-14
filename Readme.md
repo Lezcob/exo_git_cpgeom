@@ -36,3 +36,15 @@ Cette commandeentraîne la Création d'un dossier d'un sous répertoire  .git, n
 **Conclusion**  
   
   Notre repo local est jumelé avec le distant. Vu que je viens de complèter ce fichier readme après le premier comit, je me contredis moi même, je dois donc faire un comit pour être "iso"
+  
+- Il faut donc ajouter ces éléments au stage avec  
+  
+```git add *```  
+  
+- Puis on commit  
+  
+```git commit -m "mon commit"```  
+  
+- On push  
+  
+```git push``` 
