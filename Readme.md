@@ -8,28 +8,30 @@ Initiation git
   
 3 On va initialiser ce dossier classique, comme un repo local avec la commande
   
-'''git init'''  
+```git init```  
 Cette commandeentraîne la Création d'un dossier d'un sous répertoire  .git, notre dossier "classique" local est devenu un repository au sens git du terme  
   
 4 On va *"stogger"* le fichier readme.md  
-
-'''git add readme.md'''  
+  
+```git add readme.md```  
   
 5 On *"commit"* avec l'option message -m (qui va apparaitre dans le repo GitHub)  
+  
   ![](image/message_comit.png)  
   
-'''git comit-m "first commit"
+```git comit-m "first commit```  
   
 6 on renomme la branche principale en main (car git en local a créé la branche master, mais GitHub attend main par convention)  
   
-  '''git branch -M main'''
+  ```git branch -M main```  
+  
 7 On crée le liern de notre repo local avec le repo distant  
   
-'''git remote add origin https://github.com/Lezcob/exo_git_cpgeom.git'''  
+```git remote add origin https://github.com/Lezcob/exo_git_cpgeom.git```  
   
 8 On *"push"* le repo local vers le distant  
   
-'''git push -u origin main'''  
+```git push -u origin main```  
   
 **Conclusion**  
   
